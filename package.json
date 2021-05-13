@@ -1,0 +1,15 @@
+{
+  "name": "05-clima-app",
+  "version": "1.0.0",
+  "description": "App de consola que utiliza apis de libre acceso",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pablo Barba",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0"
+  }
+}
