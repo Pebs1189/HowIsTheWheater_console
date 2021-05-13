@@ -1,6 +1,7 @@
 const {leerImput, inquireMenu, inquirePausa} = require('./helpers/inquirer');
 const Busquedas = require('./models/busquedas');
 
+
 require('colors');
 
 
@@ -16,9 +17,9 @@ const main = async () => {
                 //mostrar input
                 const lugar = await leerImput("Ciudad:");
                 //buscar la ciudad
-                
+                await busquedas.ciudad(lugar);
                 //seleccionar la ciudad
-
+                
                 //obtener datos del clima de la ciudad seleccionada
 
                 //mostrar resultados
