@@ -39,7 +39,7 @@ const main = async () => {
                 console.log('Cómo está el clima?', clima.desc);
                 break;
             case 2:
-                busquedas.historial.forEach( (lugar, i) => {
+                busquedas.historialCapitalizado.forEach( (lugar, i) => {
                     const idx = `${i + 1}`.green;
                     console.log(`${idx} ${lugar}`);
                 });
@@ -48,7 +48,6 @@ const main = async () => {
 
         if (opt !== 0) await inquirePausa();
     } while ( opt !== 0 );
-
 };
 
 main();
