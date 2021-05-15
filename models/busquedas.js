@@ -32,7 +32,7 @@ class Busquedas {
                 nombre: lugar.place_name,
                 lng: lugar.center[0], //longitud
                 lat: lugar.center[1]  //latitud
-            }))
+            }));
         } catch (error) {
             return [];
         }
